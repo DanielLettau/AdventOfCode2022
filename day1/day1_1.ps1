@@ -1,0 +1,1 @@
+((gc .\input1.txt) -join "+") -split '\+\+' | % {iex $_} | sort | select -last 1
